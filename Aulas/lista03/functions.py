@@ -1,17 +1,8 @@
 def is_vogal(letra) -> bool:
-    match letra:
-         case 'a':
-            return True
-         case 'e':
-            return True
-         case 'i':
-            return True
-         case 'o':
-            return True
-         case 'u':
-            return True
-         case _:
-            return False
+    if letra == 'a' or letra == 'e' or letra == 'i' or letra == 'o' or letra == 'u':
+        return True
+    else:
+        return False
 
 def getEstacaoDoAno(mes, dia):
     if (mes == 12 and dia >= 21) or (mes == 1) or (mes == 2) or (mes == 3 and dia < 21):
