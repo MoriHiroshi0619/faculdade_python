@@ -14,7 +14,6 @@ def verifica_expressao(expressao):
                 return "incorreto"
             pilha.pop()
 
-
     if not pilha:
         return "correto"
     else:
